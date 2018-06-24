@@ -42,7 +42,7 @@ There's an experimental patch for windows in this [PR](https://github.com/udacit
 ## Results
 The simulator models a car moving around the lake track. As the car moves, it calculates the cross track error, cte, or the distance from the center of the car to the center of the track. This value, along with velocity, and other telemetry is sent via websocket connection to the pid application. The pid application calculates an error and a control term for steering which is designed to return the car to the optimum position on the road.
 
-![Results](pid-results.gif)
+![Results](pid_results.gif)
 
 Tips for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
 
